@@ -1,7 +1,5 @@
 package synchronizers.countdownlatch;
 
-import ch.qos.logback.core.joran.conditional.ThenAction;
-
 import java.util.concurrent.CountDownLatch;
 
 public class Main {
@@ -33,6 +31,5 @@ public class Main {
             System.out.println(i);
             latch.countDown();
         }
-
     }
 }
